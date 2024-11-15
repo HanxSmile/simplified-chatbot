@@ -23,7 +23,7 @@ def return_vist_chat(chatbot, chatlist):
     while 1:
         response = chatbot.return_visit()
         if response:
-            chatlist.append("<<< " + response + "\n>>> ")
+            chatlist.append("\n<<< " + response + "\n>>> ")
         time.sleep(2)
 
 
